@@ -1,0 +1,25 @@
+BUDGET FAMILIAL & PERSONNEL — VERSION PWA
+
+Contenu :
+- index.html : application
+- manifest.webmanifest : identité PWA
+- service-worker.js : mise en cache pour utilisation hors ligne
+- icons/ : icônes de l'application
+
+MISE EN LIGNE :
+Téléverser le contenu de ce dossier à la racine d'un dépôt GitHub, puis activer GitHub Pages sur la branche principale (main) et le dossier racine (/).
+
+IMPORTANT — DONNÉES PRIVÉES :
+L'application conserve les données du budget dans le stockage local du navigateur/appareil.
+Ne téléversez jamais de sauvegardes JSON contenant des revenus, dépenses ou informations personnelles dans un dépôt GitHub public.
+Pensez à utiliser « Sauvegarder mes données » avant de changer de téléphone.
+
+Cette archive fournit une PWA. Elle ne contient pas d'APK Android.
+
+MISE A JOUR INSTALLATION :
+- Manifest explicite en mode standalone.
+- Détection de l’application déjà installée.
+- Bouton d’installation avec instructions si le navigateur ne propose pas le dialogue automatique.
+- Cache PWA version 2 pour forcer le renouvellement après publication.
+
+Après remplacement des fichiers sur GitHub Pages, ouvrez le site dans Chrome et utilisez le menu ⋮ > Installer l’application. La disponibilité de cette option dépend du navigateur et de ses critères d’installation.
